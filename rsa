@@ -1,15 +1,14 @@
 #!/usr/bin/python3
-'''
-Factorizing numbers in a file into a product of two prime numbers
-'''
+"""
+Factorize numbers in a file into a product of two prime numbers
+"""
 import sys
 
 
 def factorize():
-    '''
-    Searching file and factorizing the given set of numbers
-    into two prime numbers (format n = p*q)
-    '''
+    """
+    A function to search file and factorize the given set of numbers into two prime numbers (format n = p*q)
+    """
     try:
         file = sys.argv[1]
         with open(file) as f:
